@@ -35,7 +35,7 @@ public class Lesson1Homework {
     static void sign(int a) {
         if (a < 0)
             System.out.println("Число отрицательное!");
-        if (a >= 0)
+        else
             System.out.println("Число положительное или равно нулю!");
     }
     //6.

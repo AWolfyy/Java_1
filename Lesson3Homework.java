@@ -1,4 +1,4 @@
-import java.util.Random;
+import java.util.Raindom;
 import java.util.Scanner;
 
 public class Lesson3Homework {
@@ -34,7 +34,7 @@ public class Lesson3Homework {
                 System.out.println("Поздравляю! Вы угадали! Возьмите с полки пирожок...");
                 return;
             }
-            if (enterNum < guessNum) {
+	    else if (enterNum < guessNum) {
                 System.out.println("Загаданное число больше!");
             } else {
                 System.out.println("Загаданное число меньше!");

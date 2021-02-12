@@ -1,3 +1,6 @@
+package Lesson5Homework;
+
+
 class Employee {
     String fullName;
     String position;

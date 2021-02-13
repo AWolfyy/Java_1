@@ -11,13 +11,13 @@ public class Lesson5HomeworkMain {
         employees[2] = new Employee("Александров Александр Александрович", "ГенДиректор",
                 "aleksandrov@company.com", "8 (999) 222 22 22", 1000000, 30);
         employees[3] = new Employee("Никитин Никита Никитович", "Грузчик", "nikitin@company.com",
-                "8 (999) 333 33 33", 30000, 43);
+                "8 (999) 333 33 33", 30000, 25);
         employees[4] = new Employee("Алёнова Алёна Алёновна:)", "Бухгалтер", "alenova@company.com",
                 "8 (999) 444 44 44", 500000, 29);
 
         for (int i = 0; i < employees.length; i++) {
-            if (employees[i].age < 40){
-                Employee.printInfo(employees[i]);
+            if (employees[i].getAge() > 40){
+                employees[i].printInfo();
                 System.out.println();
             }
         }
